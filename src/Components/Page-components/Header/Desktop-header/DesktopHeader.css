@@ -1,0 +1,13 @@
+.Desktop-header_nav{
+    display: flex;
+    flex-direction: row;
+}
+.Desktop-another_block{
+    display: flex;
+}
+.Desktop-header_links{
+    display: flex;
+}
+.Another-block_phone{
+    display: flex;
+}
