@@ -1,4 +1,10 @@
 import React from 'react';
+import InstaIcon from '../../../Icons/InstaIcon/InstaIcon';
+
+
+
+
+import MainLogoIcon from '../../../Icons/MainLogoIcon/MainLogoIcon';
 
 import './DesktopHeader.css'
 
@@ -7,6 +13,7 @@ const DesktopHeader = ( ) =>{
 
 
     return <header className="Desktop-header_nav">
+                <MainLogoIcon/>
                 <div>
                     <h3>Astra Dent</h3>
                     <p>Labaratory</p>
@@ -27,7 +34,7 @@ const DesktopHeader = ( ) =>{
                         <i>phoneicon</i>
                         <p>(044)<b>222 33 33</b></p>
                     </div>
-                    <i>Insta</i>
+                        <i><InstaIcon/></i>
                     <button>Rus</button>
                 </div>
            </header>
