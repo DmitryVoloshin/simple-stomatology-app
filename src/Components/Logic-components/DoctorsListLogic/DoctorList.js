@@ -1,16 +1,18 @@
 import React from 'react';
 
+import './DoctorsList.css'
+
 const DoctorsList = ({ doctors, loading }) => {
   if (loading) {
     return <h2>Here can be ur spinner :)</h2>;
   }
   return (
-    <ul >
+    <ul className="doctors-list_block">
            {doctors.map(doctor => (
-        <li key={doctor.id} >
-          {doctor.firstName} {doctor.lastName}
-          <br/>
-          <p>
+        <li key={doctor.id} className="doctors-list_item">
+          <img src={doctor.avatar} className="doctors-item_avatar" alt="something gone wrong"/>
+          <p className="doctors-item_name">{doctor.firstName} {doctor.lastName}</p>
+          <p className="doctors-item_speciality">
             {Array.isArray(doctor.speciality)? 
                doctor.speciality.map(item=>`${item} `) : doctor.speciality}
           </p>

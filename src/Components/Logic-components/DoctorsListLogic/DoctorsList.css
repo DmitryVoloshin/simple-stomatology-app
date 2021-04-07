@@ -1,0 +1,52 @@
+.doctors-list_block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+    text-align: center;
+}
+.doctors-list_item{
+    padding-bottom: 15px;
+    line-height: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.doctors-item_avatar{
+    height: 350px;
+    width: 350px;
+    padding-bottom: 45px;
+}
+.doctors-item_name{
+   font-size: 33px;
+   color: rgb(94, 94, 94);
+   padding-bottom: 25px;
+}
+.doctors-item_speciality{
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: rgb(192, 192, 192);
+}
+
+
+
+/* pagination css block*/
+
+.pagination-nav_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 0px 50px 0px;
+}
+.pagination-nav_item{
+    padding:  0 10px;
+}
+.pagination-nav_item button{
+    background-color: rgb(255, 255, 255);
+    border:  1px solid rgb(190, 190, 190);
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+}

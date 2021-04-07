@@ -17,10 +17,6 @@ const Doctors = ( ) =>{
                     </p>
                  </div>
                     <DoctorsBlock/>
-                <div>
-                    g
-                </div>
-
            </section>
 }
 

@@ -10,6 +10,7 @@ import DesktopHeader from './Components/Page-components/Header/Desktop-header/De
 import MobileHeader from './Components/Page-components/Header/Mobile-header/MobileHeader';
 import Main from './Components/Page-components/Main/Main';
 import Doctors from './Components/Page-components/Doctors/Doctors';
+import Footer from './Components/Page-components/Footer/Footer';
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
         {isThisDesktop? <DesktopHeader/> : <MobileHeader/>}
         <Main/>
         <Doctors/>
+        <Footer/>
     </div>
   );
 }

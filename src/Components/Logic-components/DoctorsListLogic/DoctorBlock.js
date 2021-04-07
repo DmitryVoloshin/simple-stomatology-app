@@ -9,7 +9,7 @@ const DoctorsBlock = () => {
   const [doctors,setDoctors] = useState([])
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [doctorsPerPage] = useState(10);
+  const [doctorsPerPage] = useState(9);
 
   useEffect(() => {
     const fetchPosts = async () => {
@@ -36,7 +36,6 @@ const DoctorsBlock = () => {
 
   return (
     <div>
-      <h1>Our Doctors</h1>
         <DoctorsList doctors={docsOnPage} loading={loading}/>
         <Pagination
         doctorsPerPage={doctorsPerPage}

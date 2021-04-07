@@ -16,21 +16,19 @@ const MainPageSwitcher = ( ) =>{
     const[aboutDisabled,setAboutDisabled] = React.useState(false)
 
 
-    const switchToAbout = useCallback(
-        () =>{
+    const switchToAbout = () =>{
             setSwitcher(true)
             setMainDisabled(true)
             setAboutDisabled(false)
         }
-     )
-    const switchToHome = useCallback(
-        () =>{
+     
+    const switchToHome = () =>{
             setSwitcher(false)
             setMainDisabled(false)
             setAboutDisabled(true)
         }
-    )
     
+
     return (
         <div>       
             <nav className="Main-roots_nav">

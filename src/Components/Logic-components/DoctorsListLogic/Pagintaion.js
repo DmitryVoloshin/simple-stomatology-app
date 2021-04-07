@@ -1,4 +1,7 @@
 import React from 'react';
+
+
+import './DoctorsList.css'
                 
 const Pagination = ({ doctorsPerPage, totalDoctors, paginate }) => {
   const pageNumbers = [];
@@ -9,10 +12,10 @@ const Pagination = ({ doctorsPerPage, totalDoctors, paginate }) => {
 
 
   return (
-    <nav>
-      <ul >
+    <nav className="pagination-block_nav">
+      <ul className="pagination-nav_list">
         {pageNumbers.map(number => (
-          <li key={number} >
+          <li key={number} className="pagination-nav_item">
             <button onClick={() => paginate(number)}>
               {number}
             </button>
