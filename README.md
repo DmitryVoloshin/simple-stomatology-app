@@ -79,3 +79,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 To project adding react media hooks for some reason;
 To project adding reactjs popup for burger menu;
  react-icons 
+ npm install react-router-dom

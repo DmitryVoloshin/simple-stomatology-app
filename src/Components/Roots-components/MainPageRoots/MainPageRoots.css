@@ -1,0 +1,38 @@
+.breadcrumb{
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.breadcrumb li{
+    padding: 0 5px;
+}
+
+.Main-roots_nav{
+    color: white;
+    padding-top: 55px;
+    padding-left: 55px;
+}
+
+.breadcrumb-nav_item{
+    color: white;
+    text-decoration: none;
+}
+.breadcrumb-nav_item:hover{
+    color: rgb(118, 173, 80);;
+}
+.Main-page_title{
+    color: rgb(240, 240, 240);
+    font-size: 35px;
+    padding-top: 75px;
+    padding-left: 55px;
+}
+
+
+.Switchable-content_block{
+    margin-top: 75px;
+    font-size: 55px;
+    color: black;
+    background-color: rgb(110, 73, 73);
+
+}

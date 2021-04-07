@@ -9,7 +9,8 @@ const InstaIcon = ( {sizeInpPixels} ) =>{
 
     // Time for bad practice
  const cssStyle = {
-     color : 'gray'
+     color : 'gray',
+     margin: '0 10px'
  };
 
 

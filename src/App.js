@@ -7,6 +7,7 @@ import { useMediaPredicate } from "react-media-hook";
 //Components Imports
 import DesktopHeader from './Components/Page-components/Header/Desktop-header/DesktopHeader';
 import MobileHeader from './Components/Page-components/Header/Mobile-header/MobileHeader';
+import Main from './Components/Page-components/Main/Main';
 
 
 
@@ -18,7 +19,7 @@ const App = () => {
     return (
     <div className="App">
         {isThisDesktop? <DesktopHeader/> : <MobileHeader/>}
-        
+        <Main/>
     </div>
   );
 }
