@@ -3,12 +3,20 @@
 import React from "react";
 import { FaInstagram } from 'react-icons/fa';
 
-const InstaIcon = (  ) =>{
+
+
+const InstaIcon = ( {sizeInpPixels} ) =>{
+
+    // Time for bad practice
+ const cssStyle = {
+     color : 'gray'
+ };
+
+
     return(
         <a href="#">
-            <FaInstagram size="16px"
-                // style={}
-                // color="red"
+            <FaInstagram size={sizeInpPixels}
+               style={cssStyle}
             />
         </a>
     )

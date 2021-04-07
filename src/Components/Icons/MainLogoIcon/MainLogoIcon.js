@@ -7,7 +7,7 @@ const MainLogoIcon = ( ) =>{
         <a href="#">
             <SiActigraph size="30px"
                 // style={}
-                color="Green"
+                color="rgb(118, 173, 80)"
             />
         </a>
     )

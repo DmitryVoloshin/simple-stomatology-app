@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 import InstaIcon from '../../../Icons/InstaIcon/InstaIcon';
 
 
@@ -21,7 +23,7 @@ const MobileHeader = ( ) =>{
                         <p>Astra Dent</p>
                         <p>labaratory</p>
                     </div>
-                    <InstaIcon/>
+                    <InstaIcon sizeInpPixels="55px"/>
                 </div>
             </header>
                 
