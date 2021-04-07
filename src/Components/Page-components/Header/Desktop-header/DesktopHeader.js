@@ -19,7 +19,7 @@ const DesktopHeader = ( ) =>{
 
     return <header className="Desktop-header_nav">
                 <nav className="Header-nav_block">
-                    <MainLogoIcon/>
+                    <MainLogoIcon logoSize ="35px"/>
                         <div className="Header-logo_name">
                             <h2>Astra Dent</h2>
                             <p>Labaratory</p>

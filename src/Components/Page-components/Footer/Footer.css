@@ -1,4 +1,48 @@
-.footer{
+/* .footer{
+
+}
+.copyright{
+    height: 75px;
+    background-color: rgb(65, 65, 65);
+} */
+
+.page-footer_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     background-color: rgb(82, 82, 82);
 }
+.footer-block_info{
+    display: flex;
+}
+.footer-info_logo{
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+}
+.footer-links_block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.footer-links_block li::before{
+    content: "\2022";
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block; 
+    width: 2em;
+    margin-left: -1em;
+
+}
+
+.footer-links{
+    text-decoration: none;
+    color: white;
+}
+
