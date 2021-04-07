@@ -21,7 +21,10 @@
 .Another-block_phone{
     display: flex;
 }
-
+.Header-links_item a{
+    text-decoration: none;
+    color: gray;
+}
 
 .Header-logo_name{
     padding-right: 15px;

@@ -1,4 +1,5 @@
 import React from 'react';
+import DoctorsBlock from '../../Logic-components/DoctorsListLogic/DoctorBlock';
 
 
 import './Doctors.css'
@@ -14,8 +15,11 @@ const Doctors = ( ) =>{
                     производства стоматологического оборудования и используют только высококачественные
                     сертифицированные материалы от ведущих компаний.
                     </p>
-
                  </div>
+                    <DoctorsBlock/>
+                <div>
+                    g
+                </div>
 
            </section>
 }

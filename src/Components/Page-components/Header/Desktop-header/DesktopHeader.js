@@ -13,7 +13,7 @@ const DesktopHeader = ( ) =>{
     const navLinks = ['О нас','Услуги','Прайс','Новости','Контакты']
         .map((item,idx)=>{ 
             return <li className="Header-links_item" key={idx}>
-                        {item}
+                        <a href={item}>{item}</a>
                    </li>
         })
 
