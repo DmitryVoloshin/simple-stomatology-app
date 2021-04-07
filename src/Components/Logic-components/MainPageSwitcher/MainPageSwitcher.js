@@ -1,5 +1,8 @@
 import React from "react";
+import { useCallback } from "react";
 import BreadCrumbsRight from "../../Icons/BreadcrumbsRight/BreadCrumbsRight";
+import AboutPresComp from "../../Present-components/AboutPresentationComponent/AboutPresComp";
+import MainPresComp from "../../Present-components/MainPresentationComponent/MainPresComp";
 
 
 import './MainPageSwitcher.css'
@@ -12,18 +15,22 @@ const MainPageSwitcher = ( ) =>{
     const[mainDisabled,setMainDisabled] = React.useState(true)
     const[aboutDisabled,setAboutDisabled] = React.useState(false)
 
-    const switchToAbout =( ) =>{
-        setSwitcher(false) 
-        setMainDisabled(true)
-        setAboutDisabled(false)
-    }
-    const switchToHome = () =>{
-        setSwitcher(true)
-        setMainDisabled(false)
-        setAboutDisabled(true)
-    }
 
-
+    const switchToAbout = useCallback(
+        () =>{
+            setSwitcher(true)
+            setMainDisabled(true)
+            setAboutDisabled(false)
+        }
+     )
+    const switchToHome = useCallback(
+        () =>{
+            setSwitcher(false)
+            setMainDisabled(false)
+            setAboutDisabled(true)
+        }
+    )
+    
     return (
         <div>       
             <nav className="Main-roots_nav">
@@ -34,7 +41,7 @@ const MainPageSwitcher = ( ) =>{
             <h2 className="Main-page_title">О лаборатории Astra Dent</h2>
 
             <div className="Switchable-content_block">
-            {swithcer? <div>Some info</div> : <div>Not Pepega</div>}
+            {swithcer?   <MainPresComp/> : <AboutPresComp/>}
             </div>
         </div>
                   
