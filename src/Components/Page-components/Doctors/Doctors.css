@@ -12,9 +12,23 @@
 }
 @media(max-width:769px){
     .Doctors-about_block{
-        padding: 0px 180px 0 110px;
+        padding: 0px 40px 0 40px;
         font-size: 21.5px;
         line-height: 1.8rem;
+        color: gray;
+    }
+    .about-block_info{
+        font-size: 18px;
+    }
+}
+@media(max-width:496px){
+    .about-block_info{
+        font-size: 15px;
+    }
+    .Doctors-about_block{
+
+        font-size: 19.5px;
+        line-height: 1.4rem;
         color: gray;
     }
 }

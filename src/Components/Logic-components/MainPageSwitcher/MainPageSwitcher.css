@@ -7,13 +7,11 @@
 .breadcrumb li{
     padding: 0 5px;
 }
-
 .Main-roots_nav{
     color: white;
     padding-top: 55px;
     padding-left: 55px;
 }
-
 .breadcrumb-nav_item{
     color: white;
     text-decoration: none;
@@ -27,8 +25,6 @@
     padding-top: 75px;
     padding-left: 55px;
 }
-
-
 .Switchable-content_block{
     margin-top: 75px;
     font-size: 55px;
@@ -38,8 +34,6 @@
     width: 60%;
     border-radius: 0 50px 0px 0px;
 }
-
-
 .Breadcrumbs-button{
     color: white;
     outline: none;
@@ -50,8 +44,105 @@
 .Mobile-page_title{
     display: none;
 }
-
+@media(max-width:1980px){
+    .Switchable-content_block{
+        height: 30vh;
+    }
+}
+@media(max-width:1680px){
+    .Switchable-content_block{
+        height: 35vh;
+    }
+}
 @media(max-width:769px){
+    .Main-page_title{
+        display: none;
+    }
+    .Mobile-page_title{
+        display: initial;
+        font-size: 25px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .Switchable-content_block{
+        margin-top: 285px;
+        font-size: 55px;
+        color: gray;
+        background-color: rgba(255, 255, 255, 0.76);
+        height: 45vh;
+        width: 80%;
+        margin-right: 60px;
+        margin-left: 60px;
+        border-radius: 50px 50px 0px 0px;
+    }
+ }
+ @media(max-width:768px){
+    .Switchable-content_block{
+        height: 35vh;
+    }
+}
+ @media(max-width:414px){
+    .Switchable-content_block{
+        height: 35vh;
+        width: 393px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+ }
+ @media(max-width:411px){
+    .Switchable-content_block{
+        height: 35vh;
+        width: 391px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+ }
+ @media(max-width:375px){
+    .Switchable-content_block{
+        height: 35vh;
+        width: 355px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .Mobile-page_title{
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+ }
+ @media(max-width:360px){
+    .Switchable-content_block{
+        height: 55vh;
+        width: 340px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .Mobile-page_title{
+        font-size: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+ }
+ @media(max-width:320px){
+    .Switchable-content_block{
+        height: 75vh;
+        width: 300px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .Mobile-page_title{
+        font-size: 19px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+ }
+/* 
+@media(max-width:1980px){
+    .Switchable-content_block{
+        height: 35vh;
+    }
+}
+@media(min-width:550px){
     .Main-page_title{
         display: none;
     }
@@ -65,10 +156,79 @@
         font-size: 55px;
         color: gray;
         background-color: rgba(255, 255, 255, 0.76);
-        height: 55vh;
-        width: 86%;
-        margin-right: 50px;
-        margin-left: 50px;
+        height: 40vh;
+        width: 97%;
+        margin-right: 10px;
+        margin-left: 10px;
         border-radius: 50px 50px 0px 0px;
     }
+} */
+
+/* 
+@media(min-width:280px){
+    .Switchable-content_block{
+        width: 260px;
+        height: 35vh;
+    }
+    .Mobile-page_title{
+        font-size: 21px;
+        padding-left: 15px;
+        padding-right: 5px;
+    }
 }
+@media(min-width:320px){
+    .Switchable-content_block{
+        width: 300px;
+        height: 80vh;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .Mobile-page_title{
+        font-size: 23px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media(min-width:360px){
+    .Switchable-content_block{
+        width: 330px;
+        height: 45vh;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+@media(min-width:375px){
+    .Switchable-content_block{
+        width: 355px;
+        height: 35vh;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media(min-width:396px){
+    .Switchable-content_block{
+        height: 45vh;
+    }
+    .Mobile-page_title{
+        font-size: 20px;
+      
+    }
+}
+
+@media(min-width:411px){
+    .Switchable-content_block{
+        width: 389px;
+        height: 35vh;
+    }
+}
+@media(min-width:414px){
+    .Switchable-content_block{
+        width: 394px;
+    }
+}
+@media(min-width:768px){
+
+}
+@media(min-width:832px){
+
+} */

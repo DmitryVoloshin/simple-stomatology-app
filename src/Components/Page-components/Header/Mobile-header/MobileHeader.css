@@ -1,4 +1,17 @@
-.last{
-    padding-left: 50px;
+.mobile-header_styles{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-header_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-icons_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

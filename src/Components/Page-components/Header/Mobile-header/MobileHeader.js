@@ -6,6 +6,7 @@ import InstaIcon from '../../../Icons/InstaIcon/InstaIcon';
 
 
 import MainLogoIcon from '../../../Icons/MainLogoIcon/MainLogoIcon';
+import PhoneIcon from '../../../Icons/PhoenIcon/PhoneIcon';
 import BurgerNav from './BurgerNav/BurgerNav';
 
 
@@ -15,16 +16,23 @@ const MobileHeader = ( ) =>{
 
   
 
-    return <header>
+    return <header className="mobile-header_styles">
                 <BurgerNav/>
-                <div className="last">
-                    <MainLogoIcon/>
-                    <div>
+                {/* <div className="mobile-header_logo"> */}
+                    
+                    <div className="mobile-header_logo">
+                         <MainLogoIcon logoSize="35px"/>
+                        <div>
                         <p>Astra Dent</p>
                         <p>labaratory</p>
+                        </div>
                     </div>
+                    <div className="header-icons_block">
                     <InstaIcon sizeInpPixels="55px"/>
-                </div>
+                    <PhoneIcon/>
+                    </div>
+                    
+                {/* </div> */}
             </header>
                 
             

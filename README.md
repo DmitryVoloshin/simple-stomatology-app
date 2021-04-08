@@ -1,3 +1,39 @@
+
+So how to start this "app" 
+
+First of all u need :
+
+
+npm i react-media-hook --save
+npm install reactjs-popup --save
+npm install react-icons --save
+npm install react-router-dom
+npm install axios
+
+
+
+
+The :
+
+npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -75,8 +111,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-
-To project adding react media hooks for some reason;
-To project adding reactjs popup for burger menu;
- react-icons 
- npm install react-router-dom
