@@ -1,6 +1,6 @@
 import React from 'react'
-import MainLogoIcon from '../../Icons/MainLogoIcon/MainLogoIcon'
-import PhoneIcon from '../../Icons/PhoenIcon/PhoneIcon'
+import { MainLogoIcon,PhoneIcon } from '../../Icons/Icons'
+
 
 import './Footer.css'
 

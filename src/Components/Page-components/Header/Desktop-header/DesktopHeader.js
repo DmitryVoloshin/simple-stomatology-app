@@ -1,15 +1,10 @@
 import React from 'react';
-
-
-
-import InstaIcon from '../../../Icons/InstaIcon/InstaIcon';
-import MainLogoIcon from '../../../Icons/MainLogoIcon/MainLogoIcon';
-import PhoneIcon from '../../../Icons/PhoenIcon/PhoneIcon';
+import { MainLogoIcon,PhoneIcon,InstaIcon } from '../../../Icons/Icons';
 
 import './DesktopHeader.css'
 
 const DesktopHeader = ( ) =>{
-
+    
     const navLinks = ['О нас','Услуги','Прайс','Новости','Контакты']
         .map((item,idx)=>{ 
             return <li className="Header-links_item" key={idx}>
