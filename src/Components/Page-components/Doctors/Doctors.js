@@ -4,7 +4,7 @@ import DoctorsBlock from '../../Logic-components/DoctorsListLogic/DoctorBlock';
 
 import './Doctors.css'
 
-const Doctors = ( ) =>{
+const Doctors = ( {howManyDocs} ) =>{
     return <section >
                  <div className="Doctors-about_block">
                     <h3 className="about-block_title">Наши специалисты</h3>
@@ -16,7 +16,7 @@ const Doctors = ( ) =>{
                     сертифицированные материалы от ведущих компаний.
                     </p>
                  </div>
-                    <DoctorsBlock howManyDocs="9"/>
+                    <DoctorsBlock howManyDocs={howManyDocs}/>
            </section>
 }
 

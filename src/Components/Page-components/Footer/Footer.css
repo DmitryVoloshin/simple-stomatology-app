@@ -21,7 +21,6 @@
     grid-auto-rows: minmax(50px, auto);
     gap: 10px;
     align-items: center;
- 
     text-decoration: none;
     margin-right: 155px;
 }
@@ -60,4 +59,23 @@
 }
 .call-block_phone p{
     padding-left: 10px;
+}
+
+
+@media(max-width:769px){
+    .footer-info_logo{
+        display: flex;
+        align-items: center;
+        padding-right: 25px;
+    }
+    .footer-links_block{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        gap: 10px;
+        align-items: center;
+        text-decoration: none;
+        margin-right: 25px;
+    }
+
 }

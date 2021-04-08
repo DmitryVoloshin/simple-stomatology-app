@@ -4,9 +4,10 @@ import '../PresentComponents.css'
 const MainPresComp = ( ) =>{
     return <div className="Presentation-component_styles">
                 <div className="Presentation-component_title">
-                    <p>Лаборатория Astra Dent использует</p>
-                    <p>высококлассное CAD/CAM оборудование лучших</p>
-                    <p>мировых брендов.</p>
+                   <p>Лаборатория Astra Dent использует
+                    высококлассное CAD/CAM оборудование лучших
+                    мировых брендов.
+                    </p> 
                 </div>
                 <div className="Presentation-component_info">
                     <p>Наше программное обеспечение позволяет зубным

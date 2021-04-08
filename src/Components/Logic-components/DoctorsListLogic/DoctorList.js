@@ -1,4 +1,5 @@
 import React from 'react';
+import DoctrosSchedule from '../DoctorsSchedule/DoctorsSchedule';
 
 import './DoctorsList.css'
 
@@ -16,6 +17,7 @@ const DoctorsList = ({ doctors, loading }) => {
             {Array.isArray(doctor.speciality)? 
                doctor.speciality.map(item=>`${item} `) : doctor.speciality}
           </p>
+          <DoctrosSchedule/>
         </li>
       ))}
       {}

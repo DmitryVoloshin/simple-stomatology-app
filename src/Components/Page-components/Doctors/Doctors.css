@@ -10,3 +10,11 @@
     font-size: 27px;
     font-weight: 700;
 }
+@media(max-width:769px){
+    .Doctors-about_block{
+        padding: 0px 180px 0 110px;
+        font-size: 21.5px;
+        line-height: 1.8rem;
+        color: gray;
+    }
+}

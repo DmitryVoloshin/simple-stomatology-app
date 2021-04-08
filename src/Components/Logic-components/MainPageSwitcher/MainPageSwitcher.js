@@ -1,5 +1,4 @@
 import React from "react";
-import { useCallback } from "react";
 import BreadCrumbsRight from "../../Icons/BreadcrumbsRight/BreadCrumbsRight";
 import AboutPresComp from "../../Present-components/AboutPresentationComponent/AboutPresComp";
 import MainPresComp from "../../Present-components/MainPresentationComponent/MainPresComp";
@@ -36,9 +35,11 @@ const MainPageSwitcher = ( ) =>{
             <BreadCrumbsRight/>
             <button onClick={switchToHome} disabled={aboutDisabled} className="Breadcrumbs-button">О Нас</button>
             </nav>
-            <h2 className="Main-page_title">О лаборатории Astra Dent</h2>
 
+            {/*Here we can use mediaHook for h2 but i guess we can do some trick with css */}
+            <h2 className="Main-page_title">О лаборатории Astra Dent</h2>
             <div className="Switchable-content_block">
+            <h2 className="Mobile-page_title">О лаборатории Astra Dent</h2>
             {swithcer?   <MainPresComp/> : <AboutPresComp/>}
             </div>
         </div>

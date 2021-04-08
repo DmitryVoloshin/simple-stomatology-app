@@ -1,14 +1,8 @@
 .Main-page_block{
-    height: 85vh;
     background-image: url('./../../../Files/Images/tooth-tech.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/* .Main-page_roots{
-    padding-top: 15px;
-    padding-left: 55px;
-} */
 
 .breadcrumb{
     color: white;
@@ -17,4 +11,9 @@
 }
 .breadcrumb li{
     padding: 0 5px;
+}
+
+@media(max-width:968px){
+    .Main-page_block{
+    }
 }
