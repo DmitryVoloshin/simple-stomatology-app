@@ -9,6 +9,7 @@ import Main from './Components/Page-components/Main/Main';
 import Doctors from './Components/Page-components/Doctors/Doctors';
 import Footer from './Components/Page-components/Footer/Footer';
 import MobileMain from './Components/Page-components/Main/MobileMain';
+import DoctrosSchedule from './Components/Logic-components/DoctorsSchedule/DoctorsSchedule';
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
           <Doctors howManyDocs="9"/> :
           <Doctors howManyDocs="3"/>
           }
+          <DoctrosSchedule/>
         <Footer/>
       
     </div>

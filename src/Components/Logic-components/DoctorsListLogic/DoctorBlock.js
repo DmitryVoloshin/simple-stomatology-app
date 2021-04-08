@@ -18,7 +18,6 @@ const DoctorsBlock = ({howManyDocs}) => {
 
         setDoctors(res.data)
       setLoading(false);
-      console.log(res.data)
     };
     fetchPosts();
   }, []);
