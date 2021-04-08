@@ -16,7 +16,7 @@ const Doctors = ( ) =>{
                     сертифицированные материалы от ведущих компаний.
                     </p>
                  </div>
-                    <DoctorsBlock/>
+                    <DoctorsBlock howManyDocs="9"/>
            </section>
 }
 

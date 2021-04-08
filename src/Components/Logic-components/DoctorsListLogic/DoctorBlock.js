@@ -4,12 +4,12 @@ import axios from 'axios';
 import DoctorsList from './DoctorList';
 
 
-const DoctorsBlock = () => {
+const DoctorsBlock = ({howManyDocs}) => {
 
   const [doctors,setDoctors] = useState([])
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [doctorsPerPage] = useState(9);
+  const [doctorsPerPage] = useState(howManyDocs);
 
   useEffect(() => {
     const fetchPosts = async () => {

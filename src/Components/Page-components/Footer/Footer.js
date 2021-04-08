@@ -28,12 +28,12 @@ const Footer = ( ) =>{
                     </ul> 
                 </div>
                 <div className="get-call_block">
-                    <span>
+                    <span className="call-block_phone">
                         <PhoneIcon/>
                         <p>(044) 222 33 33</p>
                     </span>
-                    <button>Заказать звонок</button>
-                    <button>Заказать услугу</button>
+                    <button className="footer-button_green">Заказать звонок</button>
+                    <button className="footer-button_white">Заказать услугу</button>
                 </div>
 
 
