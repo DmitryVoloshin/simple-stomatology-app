@@ -1,14 +1,19 @@
 import React from 'react';
-
-
 import './DoctorsList.css'
                 
-const Pagination = ({ doctorsPerPage, totalDoctors, paginate }) => {
-  const pageNumbers = [];
 
-  for (let i = 1; i <= Math.ceil(totalDoctors / doctorsPerPage); i++) {
-    pageNumbers.push(i);
+const Pagination = ({ doctorsPerPage, totalDoctors, paginate }) => {
+
+const [pageNumbers, setPageNumbers] = React.useState([])
+
+React.useEffect(() => {
+	const tempPageNumbers = [];
+	for (let i = 1; i <= Math.ceil(totalDoctors / doctorsPerPage); i++) {
+    tempPageNumbers.push(i);
   }
+  setPageNumbers(tempPageNumbers);
+}, [totalDoctors, doctorsPerPage])
+
 
 
   return (
