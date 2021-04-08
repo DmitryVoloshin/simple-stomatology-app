@@ -11,6 +11,7 @@ const DoctorsList = ({ doctors, loading }) => {
     <ul className="doctors-list_block">
            {doctors.map(doctor => (
         <li key={doctor.id} className="doctors-list_item">
+          <a href={doctor.link} className="doctors-list_links">
           <img src={doctor.avatar} className="doctors-item_avatar" alt="something gone wrong"/>
           <p className="doctors-item_name">{doctor.firstName} {doctor.lastName}</p>
           <p className="doctors-item_speciality">
@@ -18,6 +19,7 @@ const DoctorsList = ({ doctors, loading }) => {
                doctor.speciality.map(item=>`${item} `) : doctor.speciality}
           </p>
           <DoctrosSchedule/>
+          </a>
         </li>
       ))}
       {}

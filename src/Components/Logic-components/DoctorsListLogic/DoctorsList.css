@@ -12,6 +12,9 @@
     justify-content: center;
     align-items: center;
 }
+.doctors-list_links{
+    text-decoration: none;
+}
 .doctors-item_avatar{
     height: 350px;
     width: 350px;
