@@ -1,7 +1,7 @@
 import React from "react";
 import BreadCrumbsRight from "../../Icons/BreadcrumbsRight/BreadCrumbsRight";
-import AboutPresComp from "../../Present-components/AboutPresentationComponent/AboutPresComp";
-import MainPresComp from "../../Present-components/MainPresentationComponent/MainPresComp";
+import AboutPresComp from "../../Presentation-components/about-presentation-component/AboutPresComp";
+import MainPresComp from "../../Presentation-components/main-presentation-component/MainPresComp";
 
 
 import './MainPageSwitcher.css'
