@@ -1,12 +1,12 @@
 import React from 'react';
-import DoctorsBlock from '../../Logic-components/DoctorsListLogic/DoctorBlock';
+import DoctorsBlock from '../../Logic-components/doctors-list-logic/DoctorBlock';
 
 
 import './Doctors.css'
 
 const Doctors = ( {howManyDocs} ) =>{
     return <section >
-                 <div className="Doctors-about_block">
+                 <div className="doctors-about_block">
                     <h3 className="about-block_title">Наши специалисты</h3>
                     <p className="about-block_info">
                     Высококвалифицированные врачи-стоматологи AstraDent регулярно посещают профессиональные

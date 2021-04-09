@@ -1,5 +1,5 @@
 import React from 'react';
-import MainPageSwitcher from '../../Logic-components/MainPageSwitcher/MainPageSwitcher';
+import MainPageSwitcher from '../../Logic-components/main-page-switcher/MainPageSwitcher';
 
 
 import './MobileMain.css'

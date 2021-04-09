@@ -11,17 +11,15 @@ const DoctorsList = ({ doctors, loading }) => {
            {doctors.map(doctor => (
         <li key={doctor.id} className="doctors-list_item">
           <a href={doctor.link} className="doctors-list_links">
-          <img src={doctor.avatar} className="doctors-item_avatar" alt="something gone wrong"/>
-          <p className="doctors-item_name">{doctor.firstName} {doctor.lastName}</p>
-          <p className="doctors-item_speciality">
-            {Array.isArray(doctor.speciality)? 
-               doctor.speciality.map(item=>`${item} `) : doctor.speciality}
-          </p>
-  
+            <img src={doctor.avatar} className="doctors-item_avatar" alt="something gone wrong"/>
+              <p className="doctors-item_name">{doctor.firstName} {doctor.lastName}</p>
+              <p className="doctors-item_speciality">
+              {Array.isArray(doctor.speciality)? 
+                doctor.speciality.map(item=>`${item} `) : doctor.speciality}
+              </p>
           </a>
         </li>
       ))}
-      {}
     </ul>
   );
 };

@@ -19,14 +19,14 @@ const schedule=[{
 
 const DoctrosSchedule = () =>{
 
- const [data,setData] = React.useState()
+//  const [data,setData] = React.useState()
 
- React.useEffect(()=>{
-    setData(schedule)
- },[])
+//  React.useEffect(()=>{
+//     setData(schedule)
+//  },[])
 
 
- console.log(data)
+//  console.log(data)
 
     return (
         <div>

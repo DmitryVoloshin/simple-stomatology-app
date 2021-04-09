@@ -1,5 +1,5 @@
 import React from 'react';
-import MainPageSwitcher from '../../Logic-components/MainPageSwitcher/MainPageSwitcher';
+import MainPageSwitcher from '../../Logic-components/main-page-switcher/MainPageSwitcher';
 
 
 
@@ -13,9 +13,8 @@ import './Main.css'
 const Main = ( ) =>{
 
 
-
-    return <main className="Main-page_block">
-                    <div className="Main-page_roots">
+    return <main className="main-page_block">
+                    <div className="main-page_roots">
                         <MainPageSwitcher/>
                     </div>              
            </main>
