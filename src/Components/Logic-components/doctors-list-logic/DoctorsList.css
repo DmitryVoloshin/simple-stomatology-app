@@ -33,9 +33,6 @@
     color: rgb(192, 192, 192);
 }
 
-
-/* pagination css block*/
-
 .pagination-nav_list{
     display: flex;
     flex-direction: row;

@@ -17,7 +17,7 @@ const InstaIcon = ( {sizeInpPixels} ) =>{
      margin: '0 10px'
  };
     return(
-        <a href="#">
+        <a href="/">
             <FaInstagram size={sizeInpPixels}
                style={cssStyle}
             />
@@ -26,7 +26,7 @@ const InstaIcon = ( {sizeInpPixels} ) =>{
 }
 const MainLogoIcon = ( {logoSize} ) =>{
     return(
-        <a href="#">
+        <a href="/">
             <SiActigraph size={logoSize}
                 color="rgb(118, 173, 80)"
             />
@@ -35,7 +35,7 @@ const MainLogoIcon = ( {logoSize} ) =>{
 }
 const PhoneIcon = ( ) =>{
     return(
-        <a href="#">
+        <a href="/">
         <FaPhoneAlt size="45px"
             color="rgb(118, 173, 80)"
         />

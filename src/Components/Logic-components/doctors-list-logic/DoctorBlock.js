@@ -3,7 +3,6 @@ import Pagination from './Pagintaion'
 import axios from 'axios';
 import DoctorsList from './DoctorList';
 
-
 const DoctorsBlock = ({howManyDocs}) => {
 
   const [doctors,setDoctors] = useState([])
@@ -29,9 +28,6 @@ const DoctorsBlock = ({howManyDocs}) => {
 
   // Change page
   const paginate = pageNumber => setCurrentPage(pageNumber);
-
-
-  
 
   return (
     <div>

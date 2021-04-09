@@ -26,7 +26,7 @@ const DoctrosSchedule = () =>{
 //  },[])
 
 
-//  console.log(data)
+console.log(schedule)
 
     return (
         <div>
