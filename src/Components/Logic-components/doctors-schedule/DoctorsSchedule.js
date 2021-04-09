@@ -1,7 +1,7 @@
 import React from 'react';
 
     
-const schedule=[{
+const schedule={
     "start": "10:00",
     "appointments": [
       {
@@ -14,23 +14,30 @@ const schedule=[{
       }
     ],
     "end": "15:00"
-}]
+}
 
+const DoctrosSchedule = (  ) =>{
 
-const DoctrosSchedule = () =>{
-
-//  const [data,setData] = React.useState()
-
-//  React.useEffect(()=>{
-//     setData(schedule)
-//  },[])
-
-
-console.log(schedule)
+  // The idea was to receive data and put them into a state, 
+  //after which start and duration are summed up and, 
+  //a new date is written into the state and then output
+  //
+  // const [duration,setDuration] = React.useState()
+  // const [start,setStart] = React.useState()
+  // React.useEffect(()=>{
+  //   schedule.appointments.map((time)=>{ 
+  //       setDuration(time)
+  //       setStart(time.start)
+  //   })
+  // },[])
 
     return (
         <div>
-       
+          {
+            schedule.appointments.map((start,idx)=>{
+              return <div key={idx}>{start.start};{start.duration} </div>
+            })
+          }      
         </div>
     )
 }

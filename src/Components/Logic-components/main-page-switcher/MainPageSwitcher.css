@@ -136,3 +136,9 @@
         padding-right: 15px;
     }
  }
+
+ @media(max-height:800px){
+     .switchable-content_block{
+         height: 500px;
+     }
+ }
