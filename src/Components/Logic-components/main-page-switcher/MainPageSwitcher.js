@@ -28,9 +28,9 @@ const MainPageSwitcher = ( ) =>{
             <BreadCrumbsRight/>
             <button onClick={switchToHome} disabled={aboutDisabled} className="breadcrumbs-button">О Нас</button>
             </nav>
-            <h2 className="main-page_title">О лаборатории Astra Dent</h2>
+            <h2 className="main-page_title">О лаборатории Astra Dent и остальном</h2>
             <div className="switchable-content_block">
-            <h2 className="mobile-page_title">О лаборатории Astra Dent</h2>
+            <h2 className="mobile-page_title">О лаборатории Astra Dent и не только</h2>
             {swithcer?   <MainPresComp/> : <AboutPresComp/>}
             </div>
         </div>
